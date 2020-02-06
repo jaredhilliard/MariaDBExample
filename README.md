@@ -1,8 +1,7 @@
 # MariaDBExample
 A docker image which will deploy a mariadb container and runs some scripts to create and populate some tables for sql teaching purposes.
 
-For reference: https://mariadb.com/kb/en/installing-and-using-mariadb-via-docker/
-We can run a blank MariaDB system using
+For reference: https://mariadb.com/kb/en/installing-and-using-mariadb-via-docker/.  We can run a blank MariaDB system using
 > docker run --name mariadbtest MYSQL\_ROOT\_PASSWORD=password -d mariadb/server:10.3
 
 This will launch MariaDB in the background, and we can access it using
